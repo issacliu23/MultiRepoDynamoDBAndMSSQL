@@ -33,3 +33,22 @@
     > {
     "TableNames": []
     }
+    
+## Install Local MSSQL Server
+1. Install SQL Express 2019
+https://www.microsoft.com/en-ie/sql-server/sql-server-downloads
+2. Install SSMS latest version
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
+3. Create a local SQL admin user using SSMS
+    1. Ensure that SQL Server(SQLExpress) is running in Services
+    2. Launch SSMS and login
+    3. Under Security > Login, right click, select "New Login"
+    4. Select "SQL Server authentication", create your own username and password. This will be the username used in Spring application.properties later.
+4. Create a local database and change the db owner to the user created in Step 3.
+    1. In SSMS, under Databases, right click, select "New Database"
+    2. Database name: localdb and click OK
+    3. Under Security > Login, right click the user created in Step 3, select "Properties"
+    4. Under Select a page in the left panel, click "User Mapping"
+    5. Check localdb and update membership to "db_owner" and click OK
+
+
