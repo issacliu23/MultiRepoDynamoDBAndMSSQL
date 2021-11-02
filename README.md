@@ -52,3 +52,8 @@ https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-
     5. Check localdb and update membership to "db_owner" and click OK
 
 
+## Getting started with Spring DynamoDB
+
+### Tutorial
+1. Follow the link to understand how to integrate Spring with DynamoDB. https://github.com/boostchicken/spring-data-dynamodb
+...to be added with more details
