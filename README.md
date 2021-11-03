@@ -27,7 +27,7 @@
     ```
 6. Test local connection to DynamoDB
     ```sh
-    aws dynamo list-tables --endpoint-url http://localhost:8000
+    aws dynamodb list-tables --endpoint-url http://localhost:8000
     ```
     Result:
     > {
