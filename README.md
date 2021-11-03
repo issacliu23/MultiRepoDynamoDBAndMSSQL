@@ -22,7 +22,7 @@
     aws configure
     AWS Access Key ID []: fakeMyKeyId
     AWS Secret Access Key []: fakeSecretAccessKey
-    Default region name [None]:
+    Default region name [None]: us-east-1
     Default output format [None]:
     ```
 6. Test local connection to DynamoDB
